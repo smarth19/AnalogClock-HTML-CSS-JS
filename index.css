@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clock{
+    position: relative;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    border: 2px solid black;
+    width: 40vw;
+    margin: 20px auto;
+    height: 40vw;
+}
+.hands{
+    position: absolute;
+    width: 5px;
+    height: 100px;
+    background-color: black;
+    transform-origin: bottom;
+}
+#h1{
+    background-color: #8ed726;
+    top: 170px;
+    left: 49.8%;
+    border-radius: 6px;
+    height: 87px;
+}
+#h2{
+    background-color: #eaad51;
+    top: 151px;
+    left: 49.8%;
+    border-radius: 6px;
+    height: 108px;
+}
+#h3{
+    background-color: #437d89;
+    top: 125px;
+    opacity: 1;
+    left: 49.8%;
+    border-radius: 6px;
+    height: 134px;
+}
